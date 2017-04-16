@@ -30,3 +30,5 @@ DISCLAIMER: This tool is only meant for security research purposes, not for appl
 [+] Copying the not encrypted remainder of the file
 [+] Closing original file
 [+] Closing dump file
+
+Here is blog that shows you the complete steps http://www.googleplus.party/2017/04/15/iOS-App-Dumps-Encrypted-Shell-and-Disassembling/
