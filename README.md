@@ -4,6 +4,7 @@ Dumps decrypted iPhone Applications to a file - better solution than those GDB s
 
 ## How to compile it?
 1.First, adjust the Makefile if you have a different iOS SDK installed.
+
 2.And then, just use of the command : `make`, that operation will generate a dylib library.
 
 ## Usage
@@ -15,6 +16,7 @@ DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib /var/mobile/Applications/xxxxxxxx-xxxx
 mach-o decryption dumper
 
 ## The log will be outputed while dumping an executable file in the Terminal 
+```
 DISCLAIMER: This tool is only meant for security research purposes, not for application crackers.
 
 [+] Found encrypted data at address 00002000 of length 1826816 bytes - type 1.
@@ -35,6 +37,7 @@ DISCLAIMER: This tool is only meant for security research purposes, not for appl
 ## Blog
 Here is blog that shows you the complete steps 
 http://www.googleplus.party/2017/04/15/iOS-App-Dumps-Encrypted-Shell-and-Disassembling/
+```
 
 <br/>
 <br/>
@@ -54,6 +57,7 @@ dumpdecrypted是一个脱壳工具，可以对从App Store上下载的应用进�
 DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib /var/mobile/Applications/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/Scan.app/Scan
 ```
 ## 输入以下日志时是，当你对一个可执行文件进行脱壳时
+```
 DISCLAIMER: This tool is only meant for security research purposes, not for application crackers.
 
 [+] Found encrypted data at address 00002000 of length 1826816 bytes - type 1.
@@ -70,6 +74,7 @@ DISCLAIMER: This tool is only meant for security research purposes, not for appl
 [+] Copying the not encrypted remainder of the file
 [+] Closing original file
 [+] Closing dump file
+```
 
 ## 博客详解
 英文版
