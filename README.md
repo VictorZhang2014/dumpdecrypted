@@ -15,7 +15,7 @@ DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib /var/mobile/Applications/xxxxxxxx-xxxx
 ```
 mach-o decryption dumper
 
-## The log will be outputed while dumping an executable file in the Terminal 
+## The outputed log while dumping an executable file in the Terminal 
 ```
 DISCLAIMER: This tool is only meant for security research purposes, not for application crackers.
 
@@ -48,6 +48,7 @@ dumpdecrypted是一个脱壳工具，可以对从App Store上下载的应用进�
 
 ## 如何编译它了？
 1.下载这个库到你的电脑上（这里我使用的是MacBook Pro），并且`cd`到该库的目录；
+
 2.在终端(Terminal)下使用命令 `make`，就可以生成一个`dumpdecrypted.dylib`文件，这个文件就是当我们对其他可执行文件进行脱壳时要使用的。
 
 ## 使用方式
